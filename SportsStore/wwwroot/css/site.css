@@ -1,0 +1,36 @@
+﻿.product-card {
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+    .product-card:hover {
+        transform: scale(1.01);
+    }
+
+.product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-details h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.price-tag {
+    background-color: #0d6efd;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    padding: 0.4rem 0.7rem;
+}
